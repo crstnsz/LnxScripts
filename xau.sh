@@ -1,4 +1,4 @@
 cinnamon-screensaver-command -l
-/opt/bin/backup_local.sh
+~/bin/savestate.sh
 #shutdown -h now
 systemctl poweroff -i
