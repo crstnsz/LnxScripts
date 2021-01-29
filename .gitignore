@@ -4,3 +4,4 @@
 # User-specific files
 sql/plcmd.sql
 sql/cmd.sql
+exemplo-secrets.json
