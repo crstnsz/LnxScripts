@@ -1,0 +1,1 @@
+openssl enc -base64 -e -aes-256-cbc -nosalt -in $1 -out $1.enc -k $2
