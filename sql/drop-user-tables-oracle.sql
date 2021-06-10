@@ -1,8 +1,10 @@
-
-
+DECLARE
+    sql_stmt    VARCHAR2(100);
 BEGIN
-    FOR record IN (select 'drop table "' || table_name || '" cascade constraints;' as cmd from USER_TABLES)
+    FOR record IN (select table_name from USER_TABLES)
     LOOP
-        EXECUTE IMMEDIATE record.cmd;
+        sql_stmt := 'drop table "'|| record.table_name ||'" cascade constraints';
+
+        EXECUTE IMMEDIATE  sql_stmt;
     END LOOP; 
 END;
