@@ -1,10 +1,8 @@
 #limitar memoria wsl
 
-
 wsl --shutdown
 
 notepad "$env:USERPROFILE/.wslconfig"
-
 
 ##dentro do arquivo escrever 
 
