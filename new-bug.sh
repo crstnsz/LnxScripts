@@ -6,4 +6,4 @@ fi
 
 git checkout master
 git pull
-git checkout -b bugs/pbi-$1
+git checkout -b bugs/$1

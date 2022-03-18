@@ -6,4 +6,4 @@ fi
 
 git checkout master
 git pull
-git checkout -b spikes/pbi-$1
+git checkout -b spikes/$1
