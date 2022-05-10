@@ -1,0 +1,1 @@
+kubectl exec $1 -- rabbitmqadmin list queues

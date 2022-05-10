@@ -5,3 +5,4 @@
 sql/plcmd.sql
 sql/cmd.sql
 exemplo-secrets.json
+kompose.exe
