@@ -1,7 +1,6 @@
-$oracle = "-o";
 
-if [ $1 -eq $oracle]; then
-    docker start oralce_container
+if [ "-o" == "$1" ]; then
+    docker start oracle_container
 fi
 
 if [ "-ms" == "$1" ];
