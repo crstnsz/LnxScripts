@@ -1,0 +1,1 @@
+kubectl patch sa default -n $1 -p '"imagePullSecrets": [{"name": "$2" }]'

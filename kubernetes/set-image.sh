@@ -1,0 +1,1 @@
+kubectl set image deployment/$image $image=$repository/$image:$tag

@@ -1,0 +1,1 @@
+kubectl config use-context $1 #docker-desktop
