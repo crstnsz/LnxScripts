@@ -1,0 +1,1 @@
+update "AbpSettings" set "Value" = 'False' where "Name" = 'App.UserManagement.UseCaptchaOnLogin' ;
