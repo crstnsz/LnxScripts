@@ -16,3 +16,4 @@ fi
 docker start elasticsearch_container
 docker start rabbitmq_container
 docker start redis_container
+docker start azurite_container

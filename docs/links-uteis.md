@@ -24,3 +24,6 @@ https://github.com/App-vNext/Polly
 
 #Tableau
 https://github.com/tableau/js-api-samples.git
+
+#Heroku
+https://eschechola.com.br/2020/04/15/hospedando-uma-aplicacao-asp-net-core-no-heroku
