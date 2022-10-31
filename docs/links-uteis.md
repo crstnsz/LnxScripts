@@ -26,4 +26,8 @@ https://github.com/App-vNext/Polly
 https://github.com/tableau/js-api-samples.git
 
 #Heroku
-https://eschechola.com.br/2020/04/15/hospedando-uma-aplicacao-asp-net-core-no-heroku
+https://eschechola.com.br/2020/04/15/hospedando-uma-aplicacao-asp-net-core-no-hero
+
+
+#DevSecOps
+https://github.com/OWASP/DevSecOpsGuideline/tree/master/document
