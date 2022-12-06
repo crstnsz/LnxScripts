@@ -7,3 +7,4 @@ fi
 git checkout master
 git pull
 git checkout -b features/$1
+git push --set-upstream origin features/$1
