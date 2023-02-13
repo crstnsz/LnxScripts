@@ -1,0 +1,1 @@
+kubectl config get-contexts
