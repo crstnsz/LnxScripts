@@ -1,0 +1,1 @@
+while sleep 5; do curl -ksSf  https://localhost:44301/health; done

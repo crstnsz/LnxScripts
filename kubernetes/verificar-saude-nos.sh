@@ -1,0 +1,1 @@
+get nodes --show-labels
