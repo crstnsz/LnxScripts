@@ -1,0 +1,16 @@
+if [ -z "$1" ]
+  then
+    echo "Informe o Número da Feature"
+    exit 1
+fi
+
+
+if [ -z "$2" ]
+  then
+    echo "Informe o Número da PBI"
+    exit 1
+fi
+
+git checkout features/$1
+git pull
+git checkout -b pbis/$2

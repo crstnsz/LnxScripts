@@ -1,0 +1,1 @@
+![Link microsoft Learn](https://learn.microsoft.com/pt-br/azure/expressroute/expressroute-troubleshooting-network-performance)
