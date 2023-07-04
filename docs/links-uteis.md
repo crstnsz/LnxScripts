@@ -35,7 +35,12 @@ https://github.com/OWASP/DevSecOpsGuideline/tree/master/document
 https://markheath.net/post/functional-programming-big-ideas
 https://dev.to/wricke/o-basico-sobre-testes-unitarios-2ehh
 https://blog.tonysneed.com/2022/01/28/using-specflow-for-bdd-with-net-6-web-api/
+https://dev.to/rupeshtiwari/adding-tag-to-git-branch-in-azure-ci-pipelines-3gcp
+https://www.educative.io/courses/visual-introduction-to-algorithms
 
+
+# SSH .NET
+https://github.com/sshnet/SSH.NET
 
 # Mermaid gera graficos como na sintaxe abaixo no vscode. Com o plugin ele fica visualmente bonitos
 ```mermaid
