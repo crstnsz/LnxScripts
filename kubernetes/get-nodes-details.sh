@@ -1,1 +1,1 @@
-kubectl get nodes -o wide
+kubectl get nodes -o wide --show-labels=true
