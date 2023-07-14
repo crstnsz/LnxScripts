@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>XUnit Test Class</Title>
+      <Shortcut>xutest</Shortcut>
+      <Description>Code snippet for a test class</Description>
+      <Author>Nóis</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Xunit</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Shouldly</Namespace>
+        </Import>
+        <Import>
+          <Namespace>NSubstitute</Namespace>
+        </Import>
+        <Import>
+          <Namespace>AutoFixture</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the test class</ToolTip>
+          <Default>MyTestClass</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[
+      public class $name$
+      {
+        [Fact]
+        public void Should()
+            => false.ShouldBeTrue();
+          $end$
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
