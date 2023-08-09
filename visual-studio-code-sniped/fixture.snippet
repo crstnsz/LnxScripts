@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Auto Fixture declaration</Title>
+      <Shortcut>fixture</Shortcut>
+      <Description>Code snippet for IFixture Declarations</Description>
+      <Author>Nóis</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>AutoFixture</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp"><![CDATA[private readonly IFixture _fixture = new Fixture()
+                .WithNSubstituteCustomization();
+      ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
