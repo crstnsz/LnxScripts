@@ -1,0 +1,4 @@
+for sln in *.sln
+do
+    dotnet build  $sln
+done
