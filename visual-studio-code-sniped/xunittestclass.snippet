@@ -27,19 +27,26 @@
       </Imports>
       <Declarations>
         <Literal>
+          <ID>namespace</ID>
+          <ToolTip>Replace with the name of the namespace</ToolTip>
+          <Default>MyNamespace</Default>
+        </Literal>
+        <Literal>
           <ID>name</ID>
           <ToolTip>Replace with the name of the test class</ToolTip>
           <Default>MyTestClass</Default>
         </Literal>
       </Declarations>
-      <Code Language="csharp"><![CDATA[
-      public class $name$
+      <Code Language="csharp"><![CDATA[namespace $namespace$
+{
+  public class $name$
       {
         [Fact]
         public void Should()
             => false.ShouldBeTrue();
           $end$
-      }]]></Code>
+      }
+}]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
