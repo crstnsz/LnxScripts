@@ -1,0 +1,1 @@
+kubectl run postgresql-postgresql-client --rm --tty -i --restart='Never' --namespace $namespace --image bitnami/postgresql --env='PGPASSWORD=$password' --command -- psql --host $host -U $user -d $database

@@ -1,0 +1,1 @@
+cat logs.txt | grep -a "Com falha:"
