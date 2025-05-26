@@ -51,3 +51,8 @@ flowchart TD
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
 ```
+
+
+#como gerar requirements no python
+
+https://www.dataside.com.br/dataside-community/linguagem-de-programacao/metodos-para-gerar-o-requirements-txt-do-seu-projeto-em-python

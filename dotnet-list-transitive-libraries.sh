@@ -1,0 +1,1 @@
+dotnet list package --include-transitive
