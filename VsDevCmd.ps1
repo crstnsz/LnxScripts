@@ -1,0 +1,1 @@
+Start-Process cmd -ArgumentList '/k ""C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\VsDevCmd.bat""' -Verb RunAs
