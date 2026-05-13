@@ -1,3 +1,5 @@
+#!/usr/bin/env powershell
+
 param(
     [Parameter(Mandatory=$false)]
     [string]$FolderPath
