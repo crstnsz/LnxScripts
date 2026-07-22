@@ -1,0 +1,1 @@
+(Página de status do NPM Js)[https://status.npmjs.org/]
