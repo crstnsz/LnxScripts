@@ -56,3 +56,4 @@ flowchart TD
 #como gerar requirements no python
 
 https://www.dataside.com.br/dataside-community/linguagem-de-programacao/metodos-para-gerar-o-requirements-txt-do-seu-projeto-em-python
+https://github.com/punkpeye/awesome-mcp-servers#command-line
